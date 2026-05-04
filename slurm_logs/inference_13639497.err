@@ -1,0 +1,2 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[2026-05-02T20:52:55.403] error: *** JOB 13639497 ON ggpu114 CANCELLED AT 2026-05-02T20:52:55 DUE to SIGNAL Terminated ***

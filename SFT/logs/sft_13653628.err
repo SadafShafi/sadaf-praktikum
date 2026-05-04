@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/SFT/train_sft.py", line 178, in <module>
+    main()
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/SFT/train_sft.py", line 67, in main
+    print(f"GPU Memory: {torch.cuda.get_device_properties(0).total_mem / 1e9:.1f} GB")
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'torch._C._CudaDeviceProperties' object has no attribute 'total_mem'. Did you mean: 'total_memory'?

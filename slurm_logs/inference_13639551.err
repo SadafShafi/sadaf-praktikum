@@ -1,0 +1,9 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:25, 11.19it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:02, 95.64it/s]Loading weights:  15%|█▌        | 45/291 [00:00<00:01, 141.36it/s]Loading weights:  23%|██▎       | 67/291 [00:00<00:01, 168.09it/s]Loading weights:  30%|██▉       | 87/291 [00:00<00:01, 173.19it/s]Loading weights:  38%|███▊      | 112/291 [00:00<00:00, 191.96it/s]Loading weights:  45%|████▌     | 132/291 [00:00<00:00, 189.14it/s]Loading weights:  54%|█████▍    | 157/291 [00:00<00:00, 203.87it/s]Loading weights:  61%|██████    | 178/291 [00:01<00:00, 199.01it/s]Loading weights:  69%|██████▉   | 202/291 [00:01<00:00, 205.84it/s]Loading weights:  77%|███████▋  | 223/291 [00:01<00:00, 200.24it/s]Loading weights:  85%|████████▍ | 247/291 [00:01<00:00, 206.15it/s]Loading weights:  92%|█████████▏| 268/291 [00:01<00:00, 201.57it/s]Loading weights:  99%|█████████▉| 289/291 [00:01<00:00, 167.45it/s]Loading weights: 100%|██████████| 291/291 [00:01<00:00, 175.89it/s]
+Traceback (most recent call last):
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/finetune.py", line 107, in <module>
+    main()
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/finetune.py", line 76, in main
+    training_args = SFTConfig(
+                    ^^^^^^^^^^
+TypeError: SFTConfig.__init__() got an unexpected keyword argument 'max_seq_length'

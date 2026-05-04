@@ -1,0 +1,21 @@
+================================================================================
+JobID = 13653628
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu146
+================================================================================
+============================================
+Job ID:        13653628
+Node:          ggpu146
+GPU:           NVIDIA A100-SXM4-80GB
+Start time:    Mon May  4 13:21:47 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+============================================
+GPU: NVIDIA A100-SXM4-80GB
+============ Job Information ===================================================
+Submitted: 2026-05-04T13:19:26
+Started: 2026-05-04T13:21:22
+Ended: 2026-05-04T13:22:24
+Elapsed: 2 min, Limit: 120 min, Difference: 118 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 5.00 core-hours
+================================================================================

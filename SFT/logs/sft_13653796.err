@@ -1,0 +1,11 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:27, 10.53it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:03, 88.76it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:02, 122.43it/s]Loading weights:  21%|██▏       | 62/291 [00:00<00:01, 152.05it/s]Loading weights:  29%|██▉       | 85/291 [00:00<00:01, 170.76it/s]Loading weights:  36%|███▌      | 104/291 [00:00<00:01, 173.68it/s]Loading weights:  42%|████▏     | 123/291 [00:00<00:00, 174.63it/s]Loading weights:  50%|█████     | 146/291 [00:00<00:00, 190.60it/s]Loading weights:  57%|█████▋    | 166/291 [00:01<00:00, 189.20it/s]Loading weights:  64%|██████▍   | 186/291 [00:01<00:00, 183.74it/s]Loading weights:  73%|███████▎  | 211/291 [00:01<00:00, 197.37it/s]Loading weights:  79%|███████▉  | 231/291 [00:01<00:00, 192.58it/s]Loading weights:  88%|████████▊ | 256/291 [00:01<00:00, 203.99it/s]Loading weights:  95%|█████████▌| 277/291 [00:01<00:00, 201.05it/s]Loading weights: 100%|██████████| 291/291 [00:01<00:00, 176.81it/s]
+[transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+[transformers] `logging_dir` is deprecated and will be removed in v5.2. Please set `TENSORBOARD_LOGGING_DIR` instead.
+Traceback (most recent call last):
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/SFT/train_sft.py", line 178, in <module>
+    main()
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/SFT/train_sft.py", line 132, in main
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+TypeError: SFTTrainer.__init__() got an unexpected keyword argument 'max_seq_length'

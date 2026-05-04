@@ -1,0 +1,45 @@
+================================================================================
+JobID = 13639494
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu114
+================================================================================
+============================================
+Job ID:        13639494
+Node:          ggpu114
+GPU:           NVIDIA A100-SXM4-40GB
+Start time:    Sat May  2 20:49:38 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+nvidia-smi   Sat May  2 20:49:38 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.211.01             Driver Version: 570.211.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:AF:00.0 Off |                  Off |
+| N/A   24C    P0             51W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+============================================
+Loading model version: base...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+✅ Base model loaded.
+
+Starting evaluation on 205 samples...
+============ Job Information ===================================================
+Submitted: 2026-05-02T20:49:31
+Started: 2026-05-02T20:49:32
+Ended: 2026-05-02T20:49:50
+Elapsed: 1 min, Limit: 60 min, Difference: 59 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 2.50 core-hours
+================================================================================

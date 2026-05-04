@@ -1,0 +1,47 @@
+================================================================================
+JobID = 13639554
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu114
+================================================================================
+============================================
+Job ID:        13639554
+Node:          ggpu114
+GPU:           NVIDIA A100-SXM4-40GB
+Start time:    Sat May  2 21:27:05 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+nvidia-smi   Sat May  2 21:27:05 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.211.01             Driver Version: 570.211.01     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:AF:00.0 Off |                  Off |
+| N/A   23C    P0             50W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+============================================
+Loading base model...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+✅ Base model loaded.
+Configuring LoRA (Low-Rank Adaptation)...
+trainable params: 41,943,040 || all params: 8,072,204,288 || trainable%: 0.5196
+Preparing dataset...
+Initializing Trainer...
+============ Job Information ===================================================
+Submitted: 2026-05-02T21:26:59
+Started: 2026-05-02T21:27:00
+Ended: 2026-05-02T21:27:20
+Elapsed: 1 min, Limit: 60 min, Difference: 59 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 2.50 core-hours
+================================================================================
