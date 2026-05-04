@@ -1,0 +1,8 @@
+{
+  "base": {
+    "path": "models/base/meta-llama-3.1-8b-instruct",
+    "source": "meta-llama/Llama-3.1-8B-Instruct",
+    "downloaded": null
+  },
+  "versions": []
+}

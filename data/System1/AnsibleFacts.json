@@ -1,0 +1,49 @@
+{
+  "ansible_facts": {
+    "ansible_distribution": "Ubuntu",
+    "ansible_distribution_version": "22.04",
+    "ansible_distribution_release": "jammy",
+    "ansible_os_family": "Debian",
+    "ansible_system": "Linux",
+    "ansible_kernel": "5.15.0-76-generic",
+    "ansible_architecture": "x86_64",
+    "ansible_hostname": "worker-node-01",
+    
+    "ansible_memtotal_mb": 2048,
+    "ansible_memfree_mb": 145,
+    "ansible_swapfree_mb": 0,
+    
+    "ansible_mounts": [
+      {
+        "mount": "/",
+        "device": "/dev/vda1",
+        "fstype": "ext4",
+        "size_total": 20971520000,
+        "size_available": 125829120
+      }
+    ],
+    
+    "ansible_env": {
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "USER": "deploy_user"
+    },
+
+    "ansible_local": {
+      "system_state": {
+        "active_locks": [
+          "/var/lib/dpkg/lock-frontend",
+          "/var/cache/apt/archives/lock"
+        ],
+        "bound_tcp_ports": {
+          "80": "nginx",
+          "8080": "java (tomcat)",
+          "5432": "postgres"
+        },
+        "critical_file_permissions": {
+          "/etc/app/config.yml": "root:root (0644)",
+          "/var/log/app/": "root:root (0755)"
+        }
+      }
+    }
+  }
+}
