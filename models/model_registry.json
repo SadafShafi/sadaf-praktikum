@@ -22,6 +22,25 @@
       "eval_metrics": {},
       "created": "2026-05-04",
       "notes": "SFT baseline: LoRA fine-tuning on System1 train set (Rank 1 commands only)"
+    },
+    {
+      "id": "dpo-v1",
+      "stage": "dpo",
+      "path": "DPO/checkpoints/dpo-v1",
+      "parent": "base",
+      "method": "LoRA",
+      "dataset": "DPO/data/dpo_train.jsonl",
+      "key_hparams": {
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "beta": 0.1,
+        "epochs": 3,
+        "lr": 5e-05,
+        "batch_size": 16
+      },
+      "eval_metrics": {},
+      "created": "2026-05-05",
+      "notes": "DPO alignment: LoRA fine-tuning directly on top of the base model using Rank 1 vs Rank 3 preferences."
     }
   ]
 }
