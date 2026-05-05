@@ -59,3 +59,27 @@ STARTING DPO TRAINING
 {'loss': '0.02441', 'grad_norm': '0.2695', 'learning_rate': '6.727e-06', 'entropy': '0.2109', 'num_tokens': '1.406e+06', 'logits/chosen': '0.4265', 'logits/rejected': '0.1953', 'mean_token_accuracy': '0.7158', 'rewards/chosen': '-3.604', 'rewards/rejected': '-13.28', 'rewards/accuracies': '0.9938', 'rewards/margins': '9.677', 'logps/chosen': '-52.72', 'logps/rejected': '-157.4', 'epoch': '2.649'}
 {'loss': '0.01793', 'grad_norm': '3.368', 'learning_rate': '4.909e-06', 'entropy': '0.1849', 'num_tokens': '1.459e+06', 'logits/chosen': '0.3522', 'logits/rejected': '0.2259', 'mean_token_accuracy': '0.7408', 'rewards/chosen': '-3.197', 'rewards/rejected': '-12.72', 'rewards/accuracies': '1', 'rewards/margins': '9.526', 'logps/chosen': '-48.17', 'logps/rejected': '-153', 'epoch': '2.748'}
 {'loss': '0.009472', 'grad_norm': '0.1727', 'learning_rate': '3.091e-06', 'entropy': '0.2173', 'num_tokens': '1.51e+06', 'logits/chosen': '0.4226', 'logits/rejected': '0.2203', 'mean_token_accuracy': '0.7228', 'rewards/chosen': '-3.034', 'rewards/rejected': '-12.8', 'rewards/accuracies': '1', 'rewards/margins': '9.765', 'logps/chosen': '-48.55', 'logps/rejected': '-151.7', 'epoch': '2.846'}
+{'loss': '0.05114', 'grad_norm': '0.4852', 'learning_rate': '1.273e-06', 'entropy': '0.2091', 'num_tokens': '1.562e+06', 'logits/chosen': '0.3795', 'logits/rejected': '0.1645', 'mean_token_accuracy': '0.7186', 'rewards/chosen': '-3.497', 'rewards/rejected': '-13.32', 'rewards/accuracies': '0.9688', 'rewards/margins': '9.821', 'logps/chosen': '-52.35', 'logps/rejected': '-158.1', 'epoch': '2.945'}
+{'eval_loss': '0.1747', 'eval_runtime': '15.49', 'eval_samples_per_second': '11.62', 'eval_steps_per_second': '1.485', 'eval_entropy': '0.2044', 'eval_num_tokens': '1.592e+06', 'eval_logits/chosen': '0.4028', 'eval_logits/rejected': '0.2787', 'eval_mean_token_accuracy': '0.7267', 'eval_rewards/chosen': '-3.758', 'eval_rewards/rejected': '-12.52', 'eval_rewards/accuracies': '0.9457', 'eval_rewards/margins': '8.759', 'eval_logps/chosen': '-53.47', 'eval_logps/rejected': '-147.5', 'epoch': '3'}
+{'train_runtime': '946.6', 'train_samples_per_second': '5.15', 'train_steps_per_second': '0.323', 'train_loss': '0.1583', 'epoch': '3'}
+
+Saving adapter to DPO/checkpoints/dpo-v1...
+✅ Registered version 'dpo-v1' → DPO/checkpoints/dpo-v1
+
+========================================
+DPO TRAINING COMPLETE
+Adapter saved to: DPO/checkpoints/dpo-v1
+Registered as version: dpo-v1
+========================================
+
+============================================
+End time:      Tue May  5 12:17:47 CEST 2026
+============================================
+============ Job Information ===================================================
+Submitted: 2026-05-05T12:01:16
+Started: 2026-05-05T12:01:18
+Ended: 2026-05-05T12:17:47
+Elapsed: 17 min, Limit: 120 min, Difference: 103 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 42.50 core-hours
+================================================================================

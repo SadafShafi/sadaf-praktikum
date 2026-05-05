@@ -28,7 +28,7 @@ models/sft/
 models/dpo/
 models/rl/
 SFT/checkpoints/
-
+DPO/checkpoints/
 
 # ──────────────────────────────────────────────
 # Data dumps & results (regenerable / large)
