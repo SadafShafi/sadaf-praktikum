@@ -1,0 +1,50 @@
+================================================================================
+JobID = 13654162
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu118
+================================================================================
+============================================
+Job ID:        13654162
+Node:          ggpu118
+GPU:           NVIDIA A100-SXM4-40GB
+Start time:    Mon May  4 13:47:40 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+============================================
+Loading model version: sft-v1...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+Loading adapter from SFT/checkpoints/sft-v1...
+✅ Model 'sft-v1' loaded (adapter active, not merged).
+
+Starting SFT evaluation on 205 samples...
+
+========================================
+SFT EVALUATION COMPLETE (model: sft-v1)
+========================================
+Total evaluated:   205
+--- RANK 1 Matches ---
+  Exact Match Acc:   28/205 (13.7%)
+  Substring Acc:     36/205 (17.6%)
+  Average Jaccard:   49.7%
+--- RANK 2 Matches ---
+  Exact Match Acc:   7/205 (3.4%)
+  Substring Acc:     16/205 (7.8%)
+  Average Jaccard:   32.1%
+--- RANK 3 Matches ---
+  Exact Match Acc:   0/205 (0.0%)
+  Substring Acc:     3/205 (1.5%)
+  Average Jaccard:   22.9%
+
+Time elapsed:      2.2 minutes
+Results saved to:  SFT/results/sft_v1_evaluation_20260504_134740.json
+
+============================================
+End time:      Mon May  4 13:50:13 CEST 2026
+============================================
+============ Job Information ===================================================
+Submitted: 2026-05-04T13:47:12
+Started: 2026-05-04T13:47:16
+Ended: 2026-05-04T13:50:13
+Elapsed: 3 min, Limit: 120 min, Difference: 117 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 7.50 core-hours
+================================================================================

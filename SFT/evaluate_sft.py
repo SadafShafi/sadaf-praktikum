@@ -15,7 +15,10 @@ import time
 from datetime import datetime
 from tqdm import tqdm
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+# Always resolve paths relative to the project root
+PROJECT_ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+os.chdir(PROJECT_ROOT)
+sys.path.insert(0, PROJECT_ROOT)
 from models.load_model import load_model
 
 # ==========================================

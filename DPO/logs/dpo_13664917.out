@@ -1,0 +1,34 @@
+================================================================================
+JobID = 13664917
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu134
+================================================================================
+============================================
+Job ID:        13664917
+Node:          ggpu134
+GPU:           NVIDIA A100-SXM4-40GB
+Start time:    Tue May  5 11:58:05 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+============================================
+GPU: NVIDIA A100-SXM4-40GB
+GPU Memory: 42.4 GB
+
+Loading model version base...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+✅ Base model loaded.
+
+Applying LoRA configuration...
+trainable params: 13,631,488 || all params: 8,043,892,736 || trainable%: 0.1695
+
+Loading training data from DPO/data/dpo_train.jsonl...
+Train samples: 1625
+Val samples:   180
+Formatting datasets...
+============ Job Information ===================================================
+Submitted: 2026-05-05T11:57:35
+Started: 2026-05-05T11:57:41
+Ended: 2026-05-05T11:58:20
+Elapsed: 1 min, Limit: 120 min, Difference: 119 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 2.50 core-hours
+================================================================================

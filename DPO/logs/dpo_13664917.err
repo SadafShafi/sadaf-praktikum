@@ -1,0 +1,13 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:39,  7.38it/s]Loading weights:   1%|          | 2/291 [00:00<00:37,  7.62it/s]Loading weights:   6%|▌         | 17/291 [00:00<00:04, 62.96it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:02, 94.39it/s]Loading weights:  18%|█▊        | 51/291 [00:00<00:02, 118.40it/s]Loading weights:  24%|██▎       | 69/291 [00:00<00:01, 132.67it/s]Loading weights:  30%|██▉       | 87/291 [00:00<00:01, 142.68it/s]Loading weights:  36%|███▌      | 105/291 [00:00<00:01, 148.58it/s]Loading weights:  42%|████▏     | 123/291 [00:01<00:01, 151.80it/s]Loading weights:  48%|████▊     | 141/291 [00:01<00:00, 155.38it/s]Loading weights:  55%|█████▍    | 159/291 [00:01<00:00, 157.36it/s]Loading weights:  61%|██████    | 177/291 [00:01<00:00, 159.01it/s]Loading weights:  67%|██████▋   | 195/291 [00:01<00:00, 160.95it/s]Loading weights:  73%|███████▎  | 213/291 [00:01<00:00, 162.05it/s]Loading weights:  79%|███████▉  | 231/291 [00:01<00:00, 163.50it/s]Loading weights:  86%|████████▌ | 249/291 [00:01<00:00, 164.63it/s]Loading weights:  92%|█████████▏| 267/291 [00:01<00:00, 164.53it/s]Loading weights:  98%|█████████▊| 285/291 [00:02<00:00, 164.45it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 143.50it/s]
+Map:   0%|          | 0/1625 [00:00<?, ? examples/s]Map:  52%|█████▏    | 841/1625 [00:00<00:00, 8345.60 examples/s]Map: 100%|██████████| 1625/1625 [00:00<00:00, 8753.98 examples/s]
+Map:   0%|          | 0/180 [00:00<?, ? examples/s]Map: 100%|██████████| 180/180 [00:00<00:00, 8493.17 examples/s]
+[transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+[transformers] `logging_dir` is deprecated and will be removed in v5.2. Please set `TENSORBOARD_LOGGING_DIR` instead.
+Traceback (most recent call last):
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/DPO/train_dpo.py", line 208, in <module>
+    main()
+  File "/mnt/vast-nhr/home/sshafi/u20715/sadaf_praktikum/DPO/train_dpo.py", line 161, in main
+    trainer = DPOTrainer(
+              ^^^^^^^^^^^
+TypeError: DPOTrainer.__init__() got an unexpected keyword argument 'tokenizer'

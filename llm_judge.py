@@ -69,10 +69,10 @@ Respond ONLY with a valid JSON object matching this schema:
 # CONFIGURATION
 # Edit these variables before running
 # ==========================================
-RESULTS_FILE = "data/System1/analysis_output/baseline_System1_no_state_20260504_094936.json"
+RESULTS_FILE = "SFT/results/sft_v1_evaluation_20260504_134740.json"
 BASE_URL = "https://chat-ai.academiccloud.de/v1"
 MODEL_NAME = "qwen3-coder-30b-a3b-instruct"
-API_DELAY_SECONDS = 3.0  # Delay between API calls to prevent rate limits
+API_DELAY_SECONDS = 5.0  # Delay between API calls to prevent rate limits
 # API Key is automatically loaded from the .env file
 # ==========================================
 
@@ -90,9 +90,13 @@ def main():
         data = json.load(f)
 
     # API key is automatically pulled from os.environ["OPENAI_API_KEY"] by the client
-    client = OpenAI(base_url=BASE_URL)
+    # Disable the client's built-in retry so OUR retry loop handles everything
+    client = OpenAI(base_url=BASE_URL, max_retries=0)
 
+    # Count already-evaluated items
+    already_done = sum(1 for x in data if "llm_evaluation" in x)
     print(f"Starting LLM Judge evaluation using {MODEL_NAME} on {len(data)} items...")
+    print(f"Already evaluated: {already_done}, Remaining: {len(data) - already_done}")
     
     success_count = 0
     

@@ -53,3 +53,32 @@ STARTING SFT TRAINING
 {'loss': '0.1819', 'grad_norm': '0.4108', 'learning_rate': '6e-05', 'entropy': '0.2032', 'num_tokens': '5.763e+05', 'mean_token_accuracy': '0.9456', 'epoch': '2.157'}
 {'loss': '0.1883', 'grad_norm': '0.525', 'learning_rate': '5.31e-05', 'entropy': '0.2023', 'num_tokens': '6.026e+05', 'mean_token_accuracy': '0.9422', 'epoch': '2.256'}
 {'loss': '0.1603', 'grad_norm': '0.5299', 'learning_rate': '4.621e-05', 'entropy': '0.1847', 'num_tokens': '6.288e+05', 'mean_token_accuracy': '0.9525', 'epoch': '2.354'}
+{'loss': '0.1771', 'grad_norm': '0.4805', 'learning_rate': '3.931e-05', 'entropy': '0.1905', 'num_tokens': '6.553e+05', 'mean_token_accuracy': '0.9471', 'epoch': '2.452'}
+{'loss': '0.1764', 'grad_norm': '0.4956', 'learning_rate': '3.241e-05', 'entropy': '0.1894', 'num_tokens': '6.816e+05', 'mean_token_accuracy': '0.9472', 'epoch': '2.55'}
+{'loss': '0.1677', 'grad_norm': '0.5019', 'learning_rate': '2.552e-05', 'entropy': '0.1973', 'num_tokens': '7.078e+05', 'mean_token_accuracy': '0.9492', 'epoch': '2.649'}
+{'loss': '0.169', 'grad_norm': '0.5311', 'learning_rate': '1.862e-05', 'entropy': '0.1933', 'num_tokens': '7.345e+05', 'mean_token_accuracy': '0.9478', 'epoch': '2.747'}
+{'loss': '0.1729', 'grad_norm': '0.5653', 'learning_rate': '1.172e-05', 'entropy': '0.1914', 'num_tokens': '7.602e+05', 'mean_token_accuracy': '0.9475', 'epoch': '2.845'}
+{'loss': '0.1792', 'grad_norm': '0.4732', 'learning_rate': '4.828e-06', 'entropy': '0.2067', 'num_tokens': '7.861e+05', 'mean_token_accuracy': '0.9464', 'epoch': '2.943'}
+{'eval_loss': '0.2148', 'eval_runtime': '3.972', 'eval_samples_per_second': '45.32', 'eval_steps_per_second': '5.79', 'eval_entropy': '0.1955', 'eval_num_tokens': '8.012e+05', 'eval_mean_token_accuracy': '0.9404', 'epoch': '3'}
+{'train_runtime': '388.5', 'train_samples_per_second': '12.55', 'train_steps_per_second': '0.788', 'train_loss': '0.3219', 'epoch': '3'}
+
+Saving adapter to SFT/checkpoints/sft-v1...
+✅ Registered version 'sft-v1' → SFT/checkpoints/sft-v1
+
+========================================
+SFT TRAINING COMPLETE
+Adapter saved to: SFT/checkpoints/sft-v1
+Registered as version: sft-v1
+========================================
+
+============================================
+End time:      Mon May  4 13:39:29 CEST 2026
+============================================
+============ Job Information ===================================================
+Submitted: 2026-05-04T13:29:55
+Started: 2026-05-04T13:31:01
+Ended: 2026-05-04T13:39:29
+Elapsed: 9 min, Limit: 120 min, Difference: 111 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 22.50 core-hours
+================================================================================

@@ -4,5 +4,24 @@
     "source": "meta-llama/Llama-3.1-8B-Instruct",
     "downloaded": null
   },
-  "versions": []
+  "versions": [
+    {
+      "id": "sft-v1",
+      "stage": "sft",
+      "path": "SFT/checkpoints/sft-v1",
+      "parent": "base",
+      "method": "LoRA",
+      "dataset": "data/System1/train.json",
+      "key_hparams": {
+        "lora_r": 16,
+        "lora_alpha": 32,
+        "epochs": 3,
+        "lr": 0.0002,
+        "batch_size": 16
+      },
+      "eval_metrics": {},
+      "created": "2026-05-04",
+      "notes": "SFT baseline: LoRA fine-tuning on System1 train set (Rank 1 commands only)"
+    }
+  ]
 }

@@ -20,8 +20,8 @@ import numpy as np
 # ==========================================
 # CONFIGURATION
 # ==========================================
-RESULTS_FILE = "data/System1/analysis_output/baseline_System1_no_state_20260504_094936.json"
-OUTPUT_DIR = "data/System1/analysis_output"
+RESULTS_FILE = "SFT/results/sft_v1_evaluation_20260504_134740.json"
+OUTPUT_DIR = "SFT/results"
 # ==========================================
 
 
