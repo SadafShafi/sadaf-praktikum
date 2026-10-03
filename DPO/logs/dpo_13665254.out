@@ -1,0 +1,213 @@
+================================================================================
+JobID = 13665254
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu134
+================================================================================
+============================================
+Job ID:        13665254
+Node:          ggpu134
+GPU:           NVIDIA A100-SXM4-40GB
+Start time:    Tue May  5 12:28:45 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+============================================
+Loading model...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+✅ Base model loaded.
+
+--- Iteration Batch 1 (Samples 0 to 100) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.4648', 'grad_norm': '3.085', 'learning_rate': '4.1e-05', 'entropy': '0.6138', 'num_tokens': '4181', 'logits/chosen': '-0.4742', 'logits/rejected': '-0.4066', 'mean_token_accuracy': '0.7362', 'rewards/chosen': '0.2116', 'rewards/rejected': '-0.4797', 'rewards/accuracies': '0.9', 'rewards/margins': '0.6913', 'logps/chosen': '-23.1', 'logps/rejected': '-32.09', 'epoch': '0.2'}
+{'loss': '0.1069', 'grad_norm': '4.591', 'learning_rate': '3.1e-05', 'entropy': '0.7076', 'num_tokens': '8841', 'logits/chosen': '-0.4397', 'logits/rejected': '-0.4849', 'mean_token_accuracy': '0.6553', 'rewards/chosen': '0.1174', 'rewards/rejected': '-2.359', 'rewards/accuracies': '1', 'rewards/margins': '2.477', 'logps/chosen': '-26.98', 'logps/rejected': '-48.58', 'epoch': '0.4'}
+{'loss': '0.05223', 'grad_norm': '0.3398', 'learning_rate': '2.1e-05', 'entropy': '0.7283', 'num_tokens': '1.302e+04', 'logits/chosen': '-0.3994', 'logits/rejected': '-0.4047', 'mean_token_accuracy': '0.6955', 'rewards/chosen': '0.1455', 'rewards/rejected': '-3.433', 'rewards/accuracies': '1', 'rewards/margins': '3.579', 'logps/chosen': '-24.24', 'logps/rejected': '-60.23', 'epoch': '0.6'}
+{'loss': '0.6242', 'grad_norm': '0.3602', 'learning_rate': '1.1e-05', 'entropy': '0.6518', 'num_tokens': '1.715e+04', 'logits/chosen': '-0.4587', 'logits/rejected': '-0.458', 'mean_token_accuracy': '0.7218', 'rewards/chosen': '-0.2211', 'rewards/rejected': '-3.294', 'rewards/accuracies': '0.9', 'rewards/margins': '3.073', 'logps/chosen': '-25.2', 'logps/rejected': '-56.59', 'epoch': '0.8'}
+{'loss': '0.2715', 'grad_norm': '39.8', 'learning_rate': '1e-06', 'entropy': '0.561', 'num_tokens': '2.109e+04', 'logits/chosen': '-0.228', 'logits/rejected': '-0.3098', 'mean_token_accuracy': '0.7326', 'rewards/chosen': '0.2099', 'rewards/rejected': '-4.304', 'rewards/accuracies': '0.95', 'rewards/margins': '4.514', 'logps/chosen': '-23.87', 'logps/rejected': '-67.99', 'epoch': '1'}
+{'train_runtime': '18.13', 'train_samples_per_second': '5.516', 'train_steps_per_second': '2.758', 'train_loss': '0.3039', 'epoch': '1'}
+
+--- Iteration Batch 2 (Samples 100 to 200) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.3347', 'grad_norm': '1.598', 'learning_rate': '4.1e-05', 'entropy': '0.5046', 'num_tokens': '4070', 'logits/chosen': '-0.2724', 'logits/rejected': '-0.3024', 'mean_token_accuracy': '0.6814', 'rewards/chosen': '-0.947', 'rewards/rejected': '-2.346', 'rewards/accuracies': '0.85', 'rewards/margins': '1.399', 'logps/chosen': '-40.68', 'logps/rejected': '-96.01', 'epoch': '0.2'}
+{'loss': '0.6429', 'grad_norm': '0.03027', 'learning_rate': '3.1e-05', 'entropy': '0.4464', 'num_tokens': '8311', 'logits/chosen': '-0.4039', 'logits/rejected': '-0.3221', 'mean_token_accuracy': '0.6565', 'rewards/chosen': '-1.815', 'rewards/rejected': '-5.806', 'rewards/accuracies': '0.8', 'rewards/margins': '3.991', 'logps/chosen': '-49.66', 'logps/rejected': '-123.6', 'epoch': '0.4'}
+{'loss': '0.6328', 'grad_norm': '0.002239', 'learning_rate': '2.1e-05', 'entropy': '0.3787', 'num_tokens': '1.229e+04', 'logits/chosen': '-0.1551', 'logits/rejected': '-0.2055', 'mean_token_accuracy': '0.6529', 'rewards/chosen': '-2.12', 'rewards/rejected': '-9.264', 'rewards/accuracies': '0.9', 'rewards/margins': '7.143', 'logps/chosen': '-43.49', 'logps/rejected': '-160.5', 'epoch': '0.6'}
+{'loss': '0.1137', 'grad_norm': '1.94', 'learning_rate': '1.1e-05', 'entropy': '0.3104', 'num_tokens': '1.672e+04', 'logits/chosen': '-0.3937', 'logits/rejected': '-0.2943', 'mean_token_accuracy': '0.6472', 'rewards/chosen': '-3.515', 'rewards/rejected': '-10.89', 'rewards/accuracies': '0.95', 'rewards/margins': '7.379', 'logps/chosen': '-77.5', 'logps/rejected': '-179.3', 'epoch': '0.8'}
+{'loss': '0.006026', 'grad_norm': '0.04781', 'learning_rate': '1e-06', 'entropy': '0.417', 'num_tokens': '2.129e+04', 'logits/chosen': '-0.2667', 'logits/rejected': '-0.2719', 'mean_token_accuracy': '0.5591', 'rewards/chosen': '-2.536', 'rewards/rejected': '-10.04', 'rewards/accuracies': '1', 'rewards/margins': '7.508', 'logps/chosen': '-59.06', 'logps/rejected': '-172.7', 'epoch': '1'}
+{'train_runtime': '17.83', 'train_samples_per_second': '5.61', 'train_steps_per_second': '2.805', 'train_loss': '0.346', 'epoch': '1'}
+
+--- Iteration Batch 3 (Samples 200 to 300) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.09736', 'grad_norm': '0.09568', 'learning_rate': '4.1e-05', 'entropy': '0.3661', 'num_tokens': '5604', 'logits/chosen': '0.2269', 'logits/rejected': '0.07158', 'mean_token_accuracy': '0.7084', 'rewards/chosen': '-1.856', 'rewards/rejected': '-12.88', 'rewards/accuracies': '0.9', 'rewards/margins': '11.02', 'logps/chosen': '-61.62', 'logps/rejected': '-307.5', 'epoch': '0.2'}
+{'loss': '3.366', 'grad_norm': '2.536e-08', 'learning_rate': '3.1e-05', 'entropy': '0.2526', 'num_tokens': '9258', 'logits/chosen': '0.5016', 'logits/rejected': '0.4138', 'mean_token_accuracy': '0.6316', 'rewards/chosen': '-6.842', 'rewards/rejected': '-21.52', 'rewards/accuracies': '0.85', 'rewards/margins': '14.67', 'logps/chosen': '-124.8', 'logps/rejected': '-374.8', 'epoch': '0.4'}
+{'loss': '0.009181', 'grad_norm': '3.825e-06', 'learning_rate': '2.1e-05', 'entropy': '0.1372', 'num_tokens': '1.309e+04', 'logits/chosen': '0.001427', 'logits/rejected': '0.1902', 'mean_token_accuracy': '0.6917', 'rewards/chosen': '-2.789', 'rewards/rejected': '-21.02', 'rewards/accuracies': '1', 'rewards/margins': '18.23', 'logps/chosen': '-82.4', 'logps/rejected': '-388.4', 'epoch': '0.6'}
+{'loss': '0.175', 'grad_norm': '4.688e-05', 'learning_rate': '1.1e-05', 'entropy': '0.142', 'num_tokens': '1.718e+04', 'logits/chosen': '0.0872', 'logits/rejected': '0.1894', 'mean_token_accuracy': '0.7304', 'rewards/chosen': '-3.029', 'rewards/rejected': '-20.07', 'rewards/accuracies': '0.95', 'rewards/margins': '17.04', 'logps/chosen': '-75.55', 'logps/rejected': '-384.1', 'epoch': '0.8'}
+{'loss': '0.4414', 'grad_norm': '0.008264', 'learning_rate': '1e-06', 'entropy': '0.2243', 'num_tokens': '2.115e+04', 'logits/chosen': '-0.1671', 'logits/rejected': '-0.03102', 'mean_token_accuracy': '0.6841', 'rewards/chosen': '-2.638', 'rewards/rejected': '-17.93', 'rewards/accuracies': '0.95', 'rewards/margins': '15.3', 'logps/chosen': '-65.21', 'logps/rejected': '-357', 'epoch': '1'}
+{'train_runtime': '18.15', 'train_samples_per_second': '5.511', 'train_steps_per_second': '2.756', 'train_loss': '0.8177', 'epoch': '1'}
+
+--- Iteration Batch 4 (Samples 300 to 400) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.6547', 'grad_norm': '385.6', 'learning_rate': '4.1e-05', 'entropy': '0.1433', 'num_tokens': '4236', 'logits/chosen': '0.232', 'logits/rejected': '-0.05811', 'mean_token_accuracy': '0.7151', 'rewards/chosen': '-2.932', 'rewards/rejected': '-13.45', 'rewards/accuracies': '0.8', 'rewards/margins': '10.52', 'logps/chosen': '-103.1', 'logps/rejected': '-469.7', 'epoch': '0.2'}
+{'loss': '2.858', 'grad_norm': '0.001654', 'learning_rate': '3.1e-05', 'entropy': '0.1766', 'num_tokens': '7976', 'logits/chosen': '-0.08233', 'logits/rejected': '-0.5487', 'mean_token_accuracy': '0.6222', 'rewards/chosen': '-4.6', 'rewards/rejected': '-16.79', 'rewards/accuracies': '0.85', 'rewards/margins': '12.19', 'logps/chosen': '-133.4', 'logps/rejected': '-477.5', 'epoch': '0.4'}
+{'loss': '0.00429', 'grad_norm': '6.762e-07', 'learning_rate': '2.1e-05', 'entropy': '0.1084', 'num_tokens': '1.176e+04', 'logits/chosen': '-0.3692', 'logits/rejected': '-0.5508', 'mean_token_accuracy': '0.7408', 'rewards/chosen': '-0.4419', 'rewards/rejected': '-16.1', 'rewards/accuracies': '1', 'rewards/margins': '15.65', 'logps/chosen': '-59.63', 'logps/rejected': '-523.7', 'epoch': '0.6'}
+{'loss': '0.3638', 'grad_norm': '0.0001655', 'learning_rate': '1.1e-05', 'entropy': '0.1288', 'num_tokens': '1.613e+04', 'logits/chosen': '-0.2138', 'logits/rejected': '-0.37', 'mean_token_accuracy': '0.6883', 'rewards/chosen': '-1.9', 'rewards/rejected': '-22.33', 'rewards/accuracies': '0.95', 'rewards/margins': '20.43', 'logps/chosen': '-108.9', 'logps/rejected': '-581.9', 'epoch': '0.8'}
+{'loss': '1.015', 'grad_norm': '0.001761', 'learning_rate': '1e-06', 'entropy': '0.124', 'num_tokens': '2.034e+04', 'logits/chosen': '-0.3909', 'logits/rejected': '-0.601', 'mean_token_accuracy': '0.7184', 'rewards/chosen': '-1.155', 'rewards/rejected': '-17.24', 'rewards/accuracies': '0.9', 'rewards/margins': '16.08', 'logps/chosen': '-90.44', 'logps/rejected': '-524', 'epoch': '1'}
+{'train_runtime': '17.56', 'train_samples_per_second': '5.696', 'train_steps_per_second': '2.848', 'train_loss': '0.9792', 'epoch': '1'}
+
+--- Iteration Batch 5 (Samples 400 to 500) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.3457', 'grad_norm': '0.02384', 'learning_rate': '4.1e-05', 'entropy': '0.1562', 'num_tokens': '4486', 'logits/chosen': '-0.3607', 'logits/rejected': '-1.221', 'mean_token_accuracy': '0.6817', 'rewards/chosen': '-0.2581', 'rewards/rejected': '-8.376', 'rewards/accuracies': '0.8', 'rewards/margins': '8.118', 'logps/chosen': '-103.2', 'logps/rejected': '-548.9', 'epoch': '0.2'}
+{'loss': '0.02814', 'grad_norm': '0.0002079', 'learning_rate': '3.1e-05', 'entropy': '0.1324', 'num_tokens': '8387', 'logits/chosen': '-0.7292', 'logits/rejected': '-1.575', 'mean_token_accuracy': '0.7043', 'rewards/chosen': '-0.8828', 'rewards/rejected': '-18.28', 'rewards/accuracies': '1', 'rewards/margins': '17.4', 'logps/chosen': '-90.93', 'logps/rejected': '-662.7', 'epoch': '0.4'}
+{'loss': '0.4935', 'grad_norm': '0.8368', 'learning_rate': '2.1e-05', 'entropy': '0.1671', 'num_tokens': '1.236e+04', 'logits/chosen': '-0.7533', 'logits/rejected': '-1.916', 'mean_token_accuracy': '0.6935', 'rewards/chosen': '-0.9551', 'rewards/rejected': '-14.01', 'rewards/accuracies': '0.95', 'rewards/margins': '13.06', 'logps/chosen': '-101.4', 'logps/rejected': '-601.3', 'epoch': '0.6'}
+{'loss': '0.0005537', 'grad_norm': '4.528e-05', 'learning_rate': '1.1e-05', 'entropy': '0.1781', 'num_tokens': '1.639e+04', 'logits/chosen': '-0.773', 'logits/rejected': '-1.774', 'mean_token_accuracy': '0.721', 'rewards/chosen': '0.1436', 'rewards/rejected': '-17.44', 'rewards/accuracies': '1', 'rewards/margins': '17.58', 'logps/chosen': '-75.59', 'logps/rejected': '-692.1', 'epoch': '0.8'}
+{'loss': '2.151', 'grad_norm': '156.5', 'learning_rate': '1e-06', 'entropy': '0.1216', 'num_tokens': '2.019e+04', 'logits/chosen': '-1.154', 'logits/rejected': '-1.514', 'mean_token_accuracy': '0.6485', 'rewards/chosen': '-1.616', 'rewards/rejected': '-13.27', 'rewards/accuracies': '0.85', 'rewards/margins': '11.66', 'logps/chosen': '-124', 'logps/rejected': '-564.6', 'epoch': '1'}
+{'train_runtime': '17.33', 'train_samples_per_second': '5.769', 'train_steps_per_second': '2.885', 'train_loss': '0.6038', 'epoch': '1'}
+
+--- Iteration Batch 6 (Samples 500 to 600) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.1559', 'grad_norm': '0.1741', 'learning_rate': '4.1e-05', 'entropy': '0.1416', 'num_tokens': '4008', 'logits/chosen': '-1.25', 'logits/rejected': '-2.447', 'mean_token_accuracy': '0.6556', 'rewards/chosen': '-1.313', 'rewards/rejected': '-9.13', 'rewards/accuracies': '0.85', 'rewards/margins': '7.817', 'logps/chosen': '-126.6', 'logps/rejected': '-822.3', 'epoch': '0.2'}
+{'loss': '2.153', 'grad_norm': '155', 'learning_rate': '3.1e-05', 'entropy': '0.1788', 'num_tokens': '7777', 'logits/chosen': '-1.058', 'logits/rejected': '-2.859', 'mean_token_accuracy': '0.6346', 'rewards/chosen': '-1.514', 'rewards/rejected': '-9.981', 'rewards/accuracies': '0.9', 'rewards/margins': '8.468', 'logps/chosen': '-144.7', 'logps/rejected': '-715.1', 'epoch': '0.4'}
+{'loss': '0.316', 'grad_norm': '0.0404', 'learning_rate': '2.1e-05', 'entropy': '0.1137', 'num_tokens': '1.187e+04', 'logits/chosen': '-1.327', 'logits/rejected': '-3.063', 'mean_token_accuracy': '0.7241', 'rewards/chosen': '0.7774', 'rewards/rejected': '-21.09', 'rewards/accuracies': '0.95', 'rewards/margins': '21.86', 'logps/chosen': '-109.8', 'logps/rejected': '-898.2', 'epoch': '0.6'}
+{'loss': '1.183', 'grad_norm': '0.02242', 'learning_rate': '1.1e-05', 'entropy': '0.1518', 'num_tokens': '1.584e+04', 'logits/chosen': '-1.277', 'logits/rejected': '-3.146', 'mean_token_accuracy': '0.6558', 'rewards/chosen': '1.407', 'rewards/rejected': '-13.47', 'rewards/accuracies': '0.85', 'rewards/margins': '14.88', 'logps/chosen': '-104.6', 'logps/rejected': '-809.4', 'epoch': '0.8'}
+{'loss': '0.2381', 'grad_norm': '1.059e-05', 'learning_rate': '1e-06', 'entropy': '0.2242', 'num_tokens': '1.998e+04', 'logits/chosen': '-1.083', 'logits/rejected': '-2.98', 'mean_token_accuracy': '0.7244', 'rewards/chosen': '0.1815', 'rewards/rejected': '-18.24', 'rewards/accuracies': '0.95', 'rewards/margins': '18.42', 'logps/chosen': '-99.36', 'logps/rejected': '-863', 'epoch': '1'}
+{'train_runtime': '17.42', 'train_samples_per_second': '5.74', 'train_steps_per_second': '2.87', 'train_loss': '0.8092', 'epoch': '1'}
+
+--- Iteration Batch 7 (Samples 600 to 700) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.5897', 'grad_norm': '5.215', 'learning_rate': '4.1e-05', 'entropy': '0.1867', 'num_tokens': '3869', 'logits/chosen': '-1.364', 'logits/rejected': '-3.548', 'mean_token_accuracy': '0.7073', 'rewards/chosen': '-1.283', 'rewards/rejected': '-6.343', 'rewards/accuracies': '0.75', 'rewards/margins': '5.06', 'logps/chosen': '-118.1', 'logps/rejected': '-980', 'epoch': '0.2'}
+{'loss': '1.28', 'grad_norm': '0.4364', 'learning_rate': '3.1e-05', 'entropy': '0.1348', 'num_tokens': '7758', 'logits/chosen': '-1.547', 'logits/rejected': '-4.073', 'mean_token_accuracy': '0.6987', 'rewards/chosen': '-1.984', 'rewards/rejected': '-11.35', 'rewards/accuracies': '0.95', 'rewards/margins': '9.364', 'logps/chosen': '-128.3', 'logps/rejected': '-1044', 'epoch': '0.4'}
+{'loss': '3.13', 'grad_norm': '4.239', 'learning_rate': '2.1e-05', 'entropy': '0.1598', 'num_tokens': '1.21e+04', 'logits/chosen': '-1.589', 'logits/rejected': '-3.527', 'mean_token_accuracy': '0.6471', 'rewards/chosen': '-3.227', 'rewards/rejected': '-7.755', 'rewards/accuracies': '0.85', 'rewards/margins': '4.528', 'logps/chosen': '-208.9', 'logps/rejected': '-1001', 'epoch': '0.6'}
+{'loss': '0.1003', 'grad_norm': '0.133', 'learning_rate': '1.1e-05', 'entropy': '0.2757', 'num_tokens': '1.639e+04', 'logits/chosen': '-1.242', 'logits/rejected': '-4.115', 'mean_token_accuracy': '0.6659', 'rewards/chosen': '-0.06431', 'rewards/rejected': '-7.338', 'rewards/accuracies': '0.95', 'rewards/margins': '7.274', 'logps/chosen': '-74.22', 'logps/rejected': '-888.2', 'epoch': '0.8'}
+{'loss': '0.4151', 'grad_norm': '0.07705', 'learning_rate': '1e-06', 'entropy': '0.2319', 'num_tokens': '2.034e+04', 'logits/chosen': '-1.21', 'logits/rejected': '-3.86', 'mean_token_accuracy': '0.7127', 'rewards/chosen': '-0.1284', 'rewards/rejected': '-8.063', 'rewards/accuracies': '0.95', 'rewards/margins': '7.934', 'logps/chosen': '-91.76', 'logps/rejected': '-865.1', 'epoch': '1'}
+{'train_runtime': '17.72', 'train_samples_per_second': '5.642', 'train_steps_per_second': '2.821', 'train_loss': '1.103', 'epoch': '1'}
+
+--- Iteration Batch 8 (Samples 700 to 800) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.6794', 'grad_norm': '75.48', 'learning_rate': '4.1e-05', 'entropy': '0.2862', 'num_tokens': '3874', 'logits/chosen': '-1.665', 'logits/rejected': '-3.852', 'mean_token_accuracy': '0.6237', 'rewards/chosen': '-0.7481', 'rewards/rejected': '-5.645', 'rewards/accuracies': '0.85', 'rewards/margins': '4.897', 'logps/chosen': '-113.6', 'logps/rejected': '-1140', 'epoch': '0.2'}
+{'loss': '0.0389', 'grad_norm': '0.01697', 'learning_rate': '3.1e-05', 'entropy': '0.2353', 'num_tokens': '7880', 'logits/chosen': '-1.192', 'logits/rejected': '-4.829', 'mean_token_accuracy': '0.7042', 'rewards/chosen': '0.7625', 'rewards/rejected': '-11.83', 'rewards/accuracies': '1', 'rewards/margins': '12.6', 'logps/chosen': '-108.4', 'logps/rejected': '-1253', 'epoch': '0.4'}
+{'loss': '0.01995', 'grad_norm': '3.333e-08', 'learning_rate': '2.1e-05', 'entropy': '0.2285', 'num_tokens': '1.232e+04', 'logits/chosen': '-1.259', 'logits/rejected': '-5.252', 'mean_token_accuracy': '0.7577', 'rewards/chosen': '-0.2925', 'rewards/rejected': '-17.3', 'rewards/accuracies': '1', 'rewards/margins': '17.01', 'logps/chosen': '-74.8', 'logps/rejected': '-1245', 'epoch': '0.6'}
+{'loss': '0.4923', 'grad_norm': '45.71', 'learning_rate': '1.1e-05', 'entropy': '0.2378', 'num_tokens': '1.779e+04', 'logits/chosen': '-1.488', 'logits/rejected': '-5.536', 'mean_token_accuracy': '0.7263', 'rewards/chosen': '-0.2273', 'rewards/rejected': '-10.17', 'rewards/accuracies': '0.95', 'rewards/margins': '9.942', 'logps/chosen': '-88.53', 'logps/rejected': '-1006', 'epoch': '0.8'}
+{'loss': '1.83', 'grad_norm': '66.58', 'learning_rate': '1e-06', 'entropy': '0.2471', 'num_tokens': '2.188e+04', 'logits/chosen': '-2.096', 'logits/rejected': '-5.318', 'mean_token_accuracy': '0.6618', 'rewards/chosen': '-1.737', 'rewards/rejected': '-13.67', 'rewards/accuracies': '0.9', 'rewards/margins': '11.94', 'logps/chosen': '-234.7', 'logps/rejected': '-1174', 'epoch': '1'}
+{'train_runtime': '18.62', 'train_samples_per_second': '5.372', 'train_steps_per_second': '2.686', 'train_loss': '0.6121', 'epoch': '1'}
+
+--- Iteration Batch 9 (Samples 800 to 900) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.7152', 'grad_norm': '44.49', 'learning_rate': '4.1e-05', 'entropy': '0.2389', 'num_tokens': '3975', 'logits/chosen': '-1.393', 'logits/rejected': '-5.001', 'mean_token_accuracy': '0.744', 'rewards/chosen': '-0.4803', 'rewards/rejected': '-3.303', 'rewards/accuracies': '0.55', 'rewards/margins': '2.823', 'logps/chosen': '-108.9', 'logps/rejected': '-1232', 'epoch': '0.2'}
+{'loss': '0.7307', 'grad_norm': '3.135', 'learning_rate': '3.1e-05', 'entropy': '0.3422', 'num_tokens': '8012', 'logits/chosen': '-1.478', 'logits/rejected': '-4.919', 'mean_token_accuracy': '0.7088', 'rewards/chosen': '-0.7035', 'rewards/rejected': '-3.568', 'rewards/accuracies': '0.85', 'rewards/margins': '2.865', 'logps/chosen': '-174.7', 'logps/rejected': '-959.5', 'epoch': '0.4'}
+{'loss': '0.03442', 'grad_norm': '1.061', 'learning_rate': '2.1e-05', 'entropy': '0.3313', 'num_tokens': '1.202e+04', 'logits/chosen': '-1.167', 'logits/rejected': '-5.984', 'mean_token_accuracy': '0.7178', 'rewards/chosen': '0.1755', 'rewards/rejected': '-6.389', 'rewards/accuracies': '1', 'rewards/margins': '6.565', 'logps/chosen': '-69.67', 'logps/rejected': '-1229', 'epoch': '0.6'}
+{'loss': '0.453', 'grad_norm': '1.118', 'learning_rate': '1.1e-05', 'entropy': '0.3255', 'num_tokens': '1.624e+04', 'logits/chosen': '-1.413', 'logits/rejected': '-5.661', 'mean_token_accuracy': '0.734', 'rewards/chosen': '-0.2805', 'rewards/rejected': '-6.636', 'rewards/accuracies': '0.95', 'rewards/margins': '6.356', 'logps/chosen': '-127.8', 'logps/rejected': '-1147', 'epoch': '0.8'}
+{'loss': '0.18', 'grad_norm': '0.1037', 'learning_rate': '1e-06', 'entropy': '0.2744', 'num_tokens': '1.993e+04', 'logits/chosen': '-1.408', 'logits/rejected': '-5.989', 'mean_token_accuracy': '0.7239', 'rewards/chosen': '-0.1972', 'rewards/rejected': '-7.133', 'rewards/accuracies': '0.95', 'rewards/margins': '6.936', 'logps/chosen': '-91.3', 'logps/rejected': '-1150', 'epoch': '1'}
+{'train_runtime': '17.31', 'train_samples_per_second': '5.777', 'train_steps_per_second': '2.888', 'train_loss': '0.4227', 'epoch': '1'}
+
+--- Iteration Batch 10 (Samples 900 to 1000) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.4524', 'grad_norm': '1.304', 'learning_rate': '4.1e-05', 'entropy': '0.2173', 'num_tokens': '4109', 'logits/chosen': '-1.148', 'logits/rejected': '-5.966', 'mean_token_accuracy': '0.8318', 'rewards/chosen': '0.01826', 'rewards/rejected': '-5.527', 'rewards/accuracies': '0.75', 'rewards/margins': '5.545', 'logps/chosen': '-47.75', 'logps/rejected': '-1520', 'epoch': '0.2'}
+{'loss': '0.2299', 'grad_norm': '5.23', 'learning_rate': '3.1e-05', 'entropy': '0.2641', 'num_tokens': '8674', 'logits/chosen': '-1.385', 'logits/rejected': '-5.762', 'mean_token_accuracy': '0.7246', 'rewards/chosen': '-0.6913', 'rewards/rejected': '-9.465', 'rewards/accuracies': '0.95', 'rewards/margins': '8.774', 'logps/chosen': '-118.4', 'logps/rejected': '-1462', 'epoch': '0.4'}
+{'loss': '0.5683', 'grad_norm': '0.109', 'learning_rate': '2.1e-05', 'entropy': '0.4044', 'num_tokens': '1.269e+04', 'logits/chosen': '-1.48', 'logits/rejected': '-5.792', 'mean_token_accuracy': '0.6771', 'rewards/chosen': '-0.5699', 'rewards/rejected': '-6.227', 'rewards/accuracies': '0.95', 'rewards/margins': '5.657', 'logps/chosen': '-212.1', 'logps/rejected': '-1245', 'epoch': '0.6'}
+{'loss': '0.03823', 'grad_norm': '1.251', 'learning_rate': '1.1e-05', 'entropy': '0.4948', 'num_tokens': '1.718e+04', 'logits/chosen': '-0.9719', 'logits/rejected': '-6.701', 'mean_token_accuracy': '0.7584', 'rewards/chosen': '-0.1733', 'rewards/rejected': '-15.13', 'rewards/accuracies': '1', 'rewards/margins': '14.96', 'logps/chosen': '-58.05', 'logps/rejected': '-1374', 'epoch': '0.8'}
+{'loss': '0.3406', 'grad_norm': '1.006', 'learning_rate': '1e-06', 'entropy': '0.3995', 'num_tokens': '2.129e+04', 'logits/chosen': '-1.301', 'logits/rejected': '-6.511', 'mean_token_accuracy': '0.7511', 'rewards/chosen': '-0.6247', 'rewards/rejected': '-5.052', 'rewards/accuracies': '0.95', 'rewards/margins': '4.427', 'logps/chosen': '-127', 'logps/rejected': '-1017', 'epoch': '1'}
+{'train_runtime': '17.91', 'train_samples_per_second': '5.583', 'train_steps_per_second': '2.791', 'train_loss': '0.3259', 'epoch': '1'}
+
+--- Iteration Batch 11 (Samples 1000 to 1100) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.7704', 'grad_norm': '23.9', 'learning_rate': '4.1e-05', 'entropy': '0.3141', 'num_tokens': '4092', 'logits/chosen': '-1.11', 'logits/rejected': '-5.849', 'mean_token_accuracy': '0.781', 'rewards/chosen': '-0.1984', 'rewards/rejected': '-0.3673', 'rewards/accuracies': '0.55', 'rewards/margins': '0.1689', 'logps/chosen': '-79.83', 'logps/rejected': '-1306', 'epoch': '0.2'}
+{'loss': '0.4734', 'grad_norm': '17.23', 'learning_rate': '3.1e-05', 'entropy': '0.4331', 'num_tokens': '7770', 'logits/chosen': '-1.299', 'logits/rejected': '-6.271', 'mean_token_accuracy': '0.6619', 'rewards/chosen': '-0.6832', 'rewards/rejected': '-1.781', 'rewards/accuracies': '0.8', 'rewards/margins': '1.098', 'logps/chosen': '-134.7', 'logps/rejected': '-1056', 'epoch': '0.4'}
+{'loss': '0.4768', 'grad_norm': '10.65', 'learning_rate': '2.1e-05', 'entropy': '0.3318', 'num_tokens': '1.145e+04', 'logits/chosen': '-0.9645', 'logits/rejected': '-6.552', 'mean_token_accuracy': '0.7601', 'rewards/chosen': '-0.3828', 'rewards/rejected': '-2.699', 'rewards/accuracies': '0.9', 'rewards/margins': '2.316', 'logps/chosen': '-71.29', 'logps/rejected': '-1263', 'epoch': '0.6'}
+{'loss': '0.05189', 'grad_norm': '0.629', 'learning_rate': '1.1e-05', 'entropy': '0.3023', 'num_tokens': '1.574e+04', 'logits/chosen': '-0.9759', 'logits/rejected': '-6.539', 'mean_token_accuracy': '0.7867', 'rewards/chosen': '-0.06908', 'rewards/rejected': '-4.638', 'rewards/accuracies': '1', 'rewards/margins': '4.569', 'logps/chosen': '-79.21', 'logps/rejected': '-1619', 'epoch': '0.8'}
+{'loss': '0.1661', 'grad_norm': '2.65', 'learning_rate': '1e-06', 'entropy': '0.4062', 'num_tokens': '1.96e+04', 'logits/chosen': '-0.9567', 'logits/rejected': '-6.321', 'mean_token_accuracy': '0.7542', 'rewards/chosen': '-0.06441', 'rewards/rejected': '-3.424', 'rewards/accuracies': '0.95', 'rewards/margins': '3.36', 'logps/chosen': '-81.25', 'logps/rejected': '-1157', 'epoch': '1'}
+{'train_runtime': '17.2', 'train_samples_per_second': '5.815', 'train_steps_per_second': '2.908', 'train_loss': '0.3877', 'epoch': '1'}
+
+--- Iteration Batch 12 (Samples 1100 to 1200) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '0.8471', 'grad_norm': '46.2', 'learning_rate': '4.1e-05', 'entropy': '0.4303', 'num_tokens': '3984', 'logits/chosen': '-0.8395', 'logits/rejected': '-6.687', 'mean_token_accuracy': '0.779', 'rewards/chosen': '0.3498', 'rewards/rejected': '0.4251', 'rewards/accuracies': '0.45', 'rewards/margins': '-0.07532', 'logps/chosen': '-56.86', 'logps/rejected': '-1186', 'epoch': '0.2'}
+{'loss': '0.5989', 'grad_norm': '25.14', 'learning_rate': '3.1e-05', 'entropy': '0.3669', 'num_tokens': '7976', 'logits/chosen': '-0.8928', 'logits/rejected': '-5.614', 'mean_token_accuracy': '0.7713', 'rewards/chosen': '-0.1503', 'rewards/rejected': '-0.5289', 'rewards/accuracies': '0.7', 'rewards/margins': '0.3786', 'logps/chosen': '-103.3', 'logps/rejected': '-1065', 'epoch': '0.4'}
+{'loss': '0.4496', 'grad_norm': '12.98', 'learning_rate': '2.1e-05', 'entropy': '0.4484', 'num_tokens': '1.21e+04', 'logits/chosen': '-0.6815', 'logits/rejected': '-6.286', 'mean_token_accuracy': '0.7597', 'rewards/chosen': '0.1245', 'rewards/rejected': '-0.9078', 'rewards/accuracies': '0.8', 'rewards/margins': '1.032', 'logps/chosen': '-66.36', 'logps/rejected': '-1145', 'epoch': '0.6'}
+{'loss': '0.6428', 'grad_norm': '14.62', 'learning_rate': '1.1e-05', 'entropy': '0.3352', 'num_tokens': '1.616e+04', 'logits/chosen': '-1.296', 'logits/rejected': '-6.098', 'mean_token_accuracy': '0.7308', 'rewards/chosen': '-0.5692', 'rewards/rejected': '-1.49', 'rewards/accuracies': '0.9', 'rewards/margins': '0.9205', 'logps/chosen': '-157.3', 'logps/rejected': '-1113', 'epoch': '0.8'}
+{'loss': '0.1907', 'grad_norm': '5.272', 'learning_rate': '1e-06', 'entropy': '0.4428', 'num_tokens': '2.01e+04', 'logits/chosen': '-0.9324', 'logits/rejected': '-6.622', 'mean_token_accuracy': '0.7165', 'rewards/chosen': '1.269', 'rewards/rejected': '-2.329', 'rewards/accuracies': '0.95', 'rewards/margins': '3.598', 'logps/chosen': '-102.2', 'logps/rejected': '-1426', 'epoch': '1'}
+{'train_runtime': '17.5', 'train_samples_per_second': '5.715', 'train_steps_per_second': '2.857', 'train_loss': '0.5458', 'epoch': '1'}
+
+--- Iteration Batch 13 (Samples 1200 to 1300) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '2.295', 'grad_norm': '114.8', 'learning_rate': '4.1e-05', 'entropy': '0.312', 'num_tokens': '4304', 'logits/chosen': '-0.9082', 'logits/rejected': '-6.407', 'mean_token_accuracy': '0.8245', 'rewards/chosen': '-0.6735', 'rewards/rejected': '1.23', 'rewards/accuracies': '0.1', 'rewards/margins': '-1.903', 'logps/chosen': '-72.65', 'logps/rejected': '-1175', 'epoch': '0.2'}
+{'loss': '0.9569', 'grad_norm': '61.36', 'learning_rate': '3.1e-05', 'entropy': '0.4127', 'num_tokens': '8585', 'logits/chosen': '-1.339', 'logits/rejected': '-5.53', 'mean_token_accuracy': '0.7059', 'rewards/chosen': '-0.08816', 'rewards/rejected': '0.2732', 'rewards/accuracies': '0.25', 'rewards/margins': '-0.3614', 'logps/chosen': '-184.9', 'logps/rejected': '-1243', 'epoch': '0.4'}
+{'loss': '0.3903', 'grad_norm': '34.14', 'learning_rate': '2.1e-05', 'entropy': '0.4177', 'num_tokens': '1.229e+04', 'logits/chosen': '-0.8094', 'logits/rejected': '-6.81', 'mean_token_accuracy': '0.7361', 'rewards/chosen': '3.538', 'rewards/rejected': '-0.9837', 'rewards/accuracies': '0.95', 'rewards/margins': '4.522', 'logps/chosen': '-44.93', 'logps/rejected': '-1292', 'epoch': '0.6'}
+{'loss': '0.3521', 'grad_norm': '16.43', 'learning_rate': '1.1e-05', 'entropy': '0.4457', 'num_tokens': '1.621e+04', 'logits/chosen': '-0.6457', 'logits/rejected': '-6.563', 'mean_token_accuracy': '0.798', 'rewards/chosen': '0.05925', 'rewards/rejected': '-1.04', 'rewards/accuracies': '1', 'rewards/margins': '1.099', 'logps/chosen': '-41.84', 'logps/rejected': '-1281', 'epoch': '0.8'}
+{'loss': '0.2745', 'grad_norm': '17.71', 'learning_rate': '1e-06', 'entropy': '0.4242', 'num_tokens': '2.014e+04', 'logits/chosen': '-1.096', 'logits/rejected': '-6.742', 'mean_token_accuracy': '0.6801', 'rewards/chosen': '-0.2806', 'rewards/rejected': '-1.725', 'rewards/accuracies': '1', 'rewards/margins': '1.445', 'logps/chosen': '-115.6', 'logps/rejected': '-1181', 'epoch': '1'}
+{'train_runtime': '17.52', 'train_samples_per_second': '5.708', 'train_steps_per_second': '2.854', 'train_loss': '0.8538', 'epoch': '1'}
+
+--- Iteration Batch 14 (Samples 1300 to 1400) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '1.389', 'grad_norm': '74.36', 'learning_rate': '4.1e-05', 'entropy': '0.3996', 'num_tokens': '3839', 'logits/chosen': '-0.6868', 'logits/rejected': '-6.887', 'mean_token_accuracy': '0.7894', 'rewards/chosen': '0.0897', 'rewards/rejected': '1.031', 'rewards/accuracies': '0.1', 'rewards/margins': '-0.9413', 'logps/chosen': '-41.6', 'logps/rejected': '-1237', 'epoch': '0.2'}
+{'loss': '0.747', 'grad_norm': '21.28', 'learning_rate': '3.1e-05', 'entropy': '0.4165', 'num_tokens': '7930', 'logits/chosen': '-0.7746', 'logits/rejected': '-6.464', 'mean_token_accuracy': '0.7626', 'rewards/chosen': '0.05412', 'rewards/rejected': '0.09103', 'rewards/accuracies': '0.45', 'rewards/margins': '-0.03691', 'logps/chosen': '-47.49', 'logps/rejected': '-1288', 'epoch': '0.4'}
+{'loss': '0.4576', 'grad_norm': '17.17', 'learning_rate': '2.1e-05', 'entropy': '0.4513', 'num_tokens': '1.178e+04', 'logits/chosen': '-0.7063', 'logits/rejected': '-6.702', 'mean_token_accuracy': '0.8086', 'rewards/chosen': '0.1109', 'rewards/rejected': '-0.6443', 'rewards/accuracies': '0.9', 'rewards/margins': '0.7552', 'logps/chosen': '-41.88', 'logps/rejected': '-1307', 'epoch': '0.6'}
+{'loss': '0.3258', 'grad_norm': '8.917', 'learning_rate': '1.1e-05', 'entropy': '0.4092', 'num_tokens': '1.57e+04', 'logits/chosen': '-0.7811', 'logits/rejected': '-7.077', 'mean_token_accuracy': '0.7598', 'rewards/chosen': '-0.2354', 'rewards/rejected': '-1.328', 'rewards/accuracies': '1', 'rewards/margins': '1.093', 'logps/chosen': '-57.47', 'logps/rejected': '-1327', 'epoch': '0.8'}
+{'loss': '0.2872', 'grad_norm': '15.07', 'learning_rate': '1e-06', 'entropy': '0.3625', 'num_tokens': '2.001e+04', 'logits/chosen': '-0.73', 'logits/rejected': '-6.724', 'mean_token_accuracy': '0.7668', 'rewards/chosen': '0.03769', 'rewards/rejected': '-1.369', 'rewards/accuracies': '1', 'rewards/margins': '1.407', 'logps/chosen': '-33.11', 'logps/rejected': '-1371', 'epoch': '1'}
+{'train_runtime': '17.38', 'train_samples_per_second': '5.752', 'train_steps_per_second': '2.876', 'train_loss': '0.6413', 'epoch': '1'}
+
+--- Iteration Batch 15 (Samples 1400 to 1500) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '1.612', 'grad_norm': '56.41', 'learning_rate': '4.1e-05', 'entropy': '0.3742', 'num_tokens': '4177', 'logits/chosen': '-0.8628', 'logits/rejected': '-6.907', 'mean_token_accuracy': '0.7491', 'rewards/chosen': '0.04559', 'rewards/rejected': '1.339', 'rewards/accuracies': '0', 'rewards/margins': '-1.293', 'logps/chosen': '-120.3', 'logps/rejected': '-1428', 'epoch': '0.2'}
+{'loss': '1.34', 'grad_norm': '44.4', 'learning_rate': '3.1e-05', 'entropy': '0.512', 'num_tokens': '8091', 'logits/chosen': '-0.9845', 'logits/rejected': '-5.998', 'mean_token_accuracy': '0.6549', 'rewards/chosen': '-0.09258', 'rewards/rejected': '0.8484', 'rewards/accuracies': '0.1', 'rewards/margins': '-0.941', 'logps/chosen': '-125.1', 'logps/rejected': '-1143', 'epoch': '0.4'}
+{'loss': '0.5494', 'grad_norm': '5.924', 'learning_rate': '2.1e-05', 'entropy': '0.353', 'num_tokens': '1.228e+04', 'logits/chosen': '-0.5267', 'logits/rejected': '-6.583', 'mean_token_accuracy': '0.8173', 'rewards/chosen': '-0.09502', 'rewards/rejected': '-0.6721', 'rewards/accuracies': '0.75', 'rewards/margins': '0.5771', 'logps/chosen': '-33.62', 'logps/rejected': '-1560', 'epoch': '0.6'}
+{'loss': '0.4951', 'grad_norm': '19.31', 'learning_rate': '1.1e-05', 'entropy': '0.5015', 'num_tokens': '1.625e+04', 'logits/chosen': '-0.8906', 'logits/rejected': '-5.97', 'mean_token_accuracy': '0.7306', 'rewards/chosen': '0.04317', 'rewards/rejected': '-0.6746', 'rewards/accuracies': '0.8', 'rewards/margins': '0.7178', 'logps/chosen': '-159', 'logps/rejected': '-1271', 'epoch': '0.8'}
+{'loss': '0.4734', 'grad_norm': '20.19', 'learning_rate': '1e-06', 'entropy': '0.4061', 'num_tokens': '2.057e+04', 'logits/chosen': '-0.6463', 'logits/rejected': '-6.351', 'mean_token_accuracy': '0.7778', 'rewards/chosen': '-0.6023', 'rewards/rejected': '-2.338', 'rewards/accuracies': '0.9', 'rewards/margins': '1.736', 'logps/chosen': '-83.42', 'logps/rejected': '-2015', 'epoch': '1'}
+{'train_runtime': '17.29', 'train_samples_per_second': '5.783', 'train_steps_per_second': '2.891', 'train_loss': '0.8939', 'epoch': '1'}
+
+--- Iteration Batch 16 (Samples 1500 to 1600) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '1.534', 'grad_norm': '117.5', 'learning_rate': '4.1e-05', 'entropy': '0.5322', 'num_tokens': '3928', 'logits/chosen': '-0.8532', 'logits/rejected': '-6.767', 'mean_token_accuracy': '0.742', 'rewards/chosen': '-0.09703', 'rewards/rejected': '1.07', 'rewards/accuracies': '0.1', 'rewards/margins': '-1.167', 'logps/chosen': '-48.32', 'logps/rejected': '-1166', 'epoch': '0.2'}
+{'loss': '0.8734', 'grad_norm': '22.5', 'learning_rate': '3.1e-05', 'entropy': '0.4531', 'num_tokens': '7697', 'logits/chosen': '-0.8747', 'logits/rejected': '-6.571', 'mean_token_accuracy': '0.7274', 'rewards/chosen': '-0.02946', 'rewards/rejected': '0.2082', 'rewards/accuracies': '0.35', 'rewards/margins': '-0.2377', 'logps/chosen': '-122', 'logps/rejected': '-1181', 'epoch': '0.4'}
+{'loss': '0.585', 'grad_norm': '45.49', 'learning_rate': '2.1e-05', 'entropy': '0.3444', 'num_tokens': '1.193e+04', 'logits/chosen': '-1.243', 'logits/rejected': '-5.803', 'mean_token_accuracy': '0.6846', 'rewards/chosen': '-0.1303', 'rewards/rejected': '-0.4818', 'rewards/accuracies': '0.6', 'rewards/margins': '0.3516', 'logps/chosen': '-178.3', 'logps/rejected': '-1241', 'epoch': '0.6'}
+{'loss': '0.5476', 'grad_norm': '25.72', 'learning_rate': '1.1e-05', 'entropy': '0.3475', 'num_tokens': '1.566e+04', 'logits/chosen': '-0.8539', 'logits/rejected': '-6.082', 'mean_token_accuracy': '0.7052', 'rewards/chosen': '0.01551', 'rewards/rejected': '-0.3633', 'rewards/accuracies': '0.75', 'rewards/margins': '0.3788', 'logps/chosen': '-81.73', 'logps/rejected': '-1367', 'epoch': '0.8'}
+{'loss': '0.6792', 'grad_norm': '106.8', 'learning_rate': '1e-06', 'entropy': '0.2487', 'num_tokens': '1.955e+04', 'logits/chosen': '-0.702', 'logits/rejected': '-6.374', 'mean_token_accuracy': '0.8195', 'rewards/chosen': '-0.5717', 'rewards/rejected': '-1.113', 'rewards/accuracies': '0.75', 'rewards/margins': '0.5412', 'logps/chosen': '-104.2', 'logps/rejected': '-1624', 'epoch': '1'}
+{'train_runtime': '17.25', 'train_samples_per_second': '5.798', 'train_steps_per_second': '2.899', 'train_loss': '0.8439', 'epoch': '1'}
+
+--- Iteration Batch 17 (Samples 1600 to 1700) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '1.723', 'grad_norm': '55.83', 'learning_rate': '4.1e-05', 'entropy': '0.2859', 'num_tokens': '4168', 'logits/chosen': '-1.2', 'logits/rejected': '-5.548', 'mean_token_accuracy': '0.681', 'rewards/chosen': '0.1175', 'rewards/rejected': '1.242', 'rewards/accuracies': '0.15', 'rewards/margins': '-1.125', 'logps/chosen': '-241.3', 'logps/rejected': '-1323', 'epoch': '0.2'}
+{'loss': '1.117', 'grad_norm': '54.78', 'learning_rate': '3.1e-05', 'entropy': '0.4895', 'num_tokens': '8213', 'logits/chosen': '-0.6628', 'logits/rejected': '-5.903', 'mean_token_accuracy': '0.7398', 'rewards/chosen': '-0.1057', 'rewards/rejected': '0.3078', 'rewards/accuracies': '0.35', 'rewards/margins': '-0.4135', 'logps/chosen': '-48.2', 'logps/rejected': '-1507', 'epoch': '0.4'}
+{'loss': '0.5644', 'grad_norm': '32.14', 'learning_rate': '2.1e-05', 'entropy': '0.4398', 'num_tokens': '1.213e+04', 'logits/chosen': '-0.7106', 'logits/rejected': '-6.783', 'mean_token_accuracy': '0.7613', 'rewards/chosen': '0.04565', 'rewards/rejected': '-0.3171', 'rewards/accuracies': '0.65', 'rewards/margins': '0.3628', 'logps/chosen': '-63.73', 'logps/rejected': '-1438', 'epoch': '0.6'}
+{'loss': '0.5418', 'grad_norm': '24.68', 'learning_rate': '1.1e-05', 'entropy': '0.3974', 'num_tokens': '1.645e+04', 'logits/chosen': '-0.7907', 'logits/rejected': '-6.217', 'mean_token_accuracy': '0.7973', 'rewards/chosen': '-0.1169', 'rewards/rejected': '-0.5976', 'rewards/accuracies': '0.75', 'rewards/margins': '0.4807', 'logps/chosen': '-117.7', 'logps/rejected': '-1185', 'epoch': '0.8'}
+{'loss': '0.4088', 'grad_norm': '14.57', 'learning_rate': '1e-06', 'entropy': '0.406', 'num_tokens': '2.057e+04', 'logits/chosen': '-1.172', 'logits/rejected': '-5.887', 'mean_token_accuracy': '0.7298', 'rewards/chosen': '0.1051', 'rewards/rejected': '-1.078', 'rewards/accuracies': '0.9', 'rewards/margins': '1.184', 'logps/chosen': '-184.2', 'logps/rejected': '-1316', 'epoch': '1'}
+{'train_runtime': '18.65', 'train_samples_per_second': '5.363', 'train_steps_per_second': '2.681', 'train_loss': '0.8711', 'epoch': '1'}
+
+--- Iteration Batch 18 (Samples 1700 to 1800) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 100 dynamically gathered samples...
+{'loss': '1.291', 'grad_norm': '52.67', 'learning_rate': '4.1e-05', 'entropy': '0.5439', 'num_tokens': '6017', 'logits/chosen': '-0.8965', 'logits/rejected': '-6.629', 'mean_token_accuracy': '0.6924', 'rewards/chosen': '0.1428', 'rewards/rejected': '0.9916', 'rewards/accuracies': '0.15', 'rewards/margins': '-0.8488', 'logps/chosen': '-92.47', 'logps/rejected': '-1031', 'epoch': '0.2'}
+{'loss': '1.183', 'grad_norm': '33.88', 'learning_rate': '3.1e-05', 'entropy': '0.3499', 'num_tokens': '1.036e+04', 'logits/chosen': '-0.7346', 'logits/rejected': '-5.731', 'mean_token_accuracy': '0.8202', 'rewards/chosen': '0.05132', 'rewards/rejected': '0.7164', 'rewards/accuracies': '0.25', 'rewards/margins': '-0.665', 'logps/chosen': '-107.1', 'logps/rejected': '-1619', 'epoch': '0.4'}
+{'loss': '0.7645', 'grad_norm': '41.68', 'learning_rate': '2.1e-05', 'entropy': '0.4423', 'num_tokens': '1.501e+04', 'logits/chosen': '-1.111', 'logits/rejected': '-5.115', 'mean_token_accuracy': '0.7061', 'rewards/chosen': '-0.1181', 'rewards/rejected': '-0.1749', 'rewards/accuracies': '0.4', 'rewards/margins': '0.05679', 'logps/chosen': '-140', 'logps/rejected': '-1056', 'epoch': '0.6'}
+{'loss': '0.5431', 'grad_norm': '14.79', 'learning_rate': '1.1e-05', 'entropy': '0.4454', 'num_tokens': '1.894e+04', 'logits/chosen': '-1.554', 'logits/rejected': '-5.062', 'mean_token_accuracy': '0.5929', 'rewards/chosen': '0.1991', 'rewards/rejected': '-0.3387', 'rewards/accuracies': '0.55', 'rewards/margins': '0.5378', 'logps/chosen': '-298.6', 'logps/rejected': '-1365', 'epoch': '0.8'}
+{'loss': '1.31', 'grad_norm': '18.74', 'learning_rate': '1e-06', 'entropy': '0.4312', 'num_tokens': '2.272e+04', 'logits/chosen': '-0.8376', 'logits/rejected': '-6.271', 'mean_token_accuracy': '0.7368', 'rewards/chosen': '-0.7004', 'rewards/rejected': '-0.3943', 'rewards/accuracies': '0.6', 'rewards/margins': '-0.3061', 'logps/chosen': '-103.5', 'logps/rejected': '-1227', 'epoch': '1'}
+{'train_runtime': '20.33', 'train_samples_per_second': '4.92', 'train_steps_per_second': '2.46', 'train_loss': '1.018', 'epoch': '1'}
+
+--- Iteration Batch 19 (Samples 1800 to 1805) ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 5 dynamically gathered samples...
+{'train_runtime': '1.673', 'train_samples_per_second': '2.988', 'train_steps_per_second': '1.793', 'train_loss': '1.216', 'entropy': '0.4844', 'num_tokens': '904', 'logits/chosen': '-0.47', 'logits/rejected': '-6.351', 'mean_token_accuracy': '0.7636', 'rewards/chosen': '0.0286', 'rewards/rejected': '0.8125', 'rewards/accuracies': '0', 'rewards/margins': '-0.7839', 'logps/chosen': '-9.351', 'logps/rejected': '-1195', 'epoch': '1'}
+Saving online DPO model...
+
+============================================
+End time:      Tue May  5 12:34:42 CEST 2026
+============================================
+============ Job Information ===================================================
+Submitted: 2026-05-05T12:28:04
+Started: 2026-05-05T12:28:21
+Ended: 2026-05-05T12:34:43
+Elapsed: 7 min, Limit: 120 min, Difference: 113 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 17.50 core-hours
+================================================================================

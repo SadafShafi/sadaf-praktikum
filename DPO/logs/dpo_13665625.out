@@ -1,0 +1,50 @@
+================================================================================
+JobID = 13665625
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu150
+================================================================================
+============================================
+Job ID:        13665625
+Node:          ggpu150
+GPU:           NVIDIA A100-SXM4-80GB
+Start time:    Tue May  5 13:27:58 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+============================================
+Loading model version: dpo-v1...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+Loading adapter from DPO/checkpoints/dpo-v1...
+✅ Model 'dpo-v1' loaded (adapter active, not merged).
+
+Starting DPO evaluation on 205 samples...
+
+========================================
+DPO EVALUATION COMPLETE (model: dpo-v1)
+========================================
+Total evaluated:   205
+--- RANK 1 Matches ---
+  Exact Match Acc:   11/205 (5.4%)
+  Substring Acc:     24/205 (11.7%)
+  Average Jaccard:   41.5%
+--- RANK 2 Matches ---
+  Exact Match Acc:   7/205 (3.4%)
+  Substring Acc:     13/205 (6.3%)
+  Average Jaccard:   31.6%
+--- RANK 3 Matches ---
+  Exact Match Acc:   0/205 (0.0%)
+  Substring Acc:     4/205 (2.0%)
+  Average Jaccard:   19.6%
+
+Time elapsed:      3.0 minutes
+Results saved to:  DPO/results/dpo_v1_evaluation_20260505_132758.json
+
+============================================
+End time:      Tue May  5 13:31:10 CEST 2026
+============================================
+============ Job Information ===================================================
+Submitted: 2026-05-05T13:27:09
+Started: 2026-05-05T13:27:34
+Ended: 2026-05-05T13:31:10
+Elapsed: 4 min, Limit: 120 min, Difference: 116 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 10.00 core-hours
+================================================================================

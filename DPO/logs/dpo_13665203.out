@@ -1,0 +1,49 @@
+================================================================================
+JobID = 13665203
+User = u20715, Account = intern_agc_emmy
+Partition = grete:shared, Nodelist = ggpu134
+================================================================================
+============================================
+Job ID:        13665203
+Node:          ggpu134
+GPU:           NVIDIA A100-SXM4-40GB
+Start time:    Tue May  5 12:24:21 CEST 2026
+Working dir:   /user/sshafi/u20715/sadaf_praktikum
+============================================
+Loading model...
+Loading base model from models/base/meta-llama-3.1-8b-instruct...
+✅ Base model loaded.
+
+--- Epoch 1/3 ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 50 dynamically gathered samples...
+{'loss': '0.4622', 'grad_norm': '8.412', 'learning_rate': '3.2e-05', 'entropy': '0.7521', 'num_tokens': '4160', 'logits/chosen': '-0.4866', 'logits/rejected': '-0.3622', 'mean_token_accuracy': '0.6949', 'rewards/chosen': '-0.0224', 'rewards/rejected': '-0.6929', 'rewards/accuracies': '0.85', 'rewards/margins': '0.6705', 'logps/chosen': '-25.8', 'logps/rejected': '-29.44', 'epoch': '0.4'}
+{'loss': '0.3282', 'grad_norm': '1.598', 'learning_rate': '1.2e-05', 'entropy': '0.5907', 'num_tokens': '8433', 'logits/chosen': '-0.3488', 'logits/rejected': '-0.3593', 'mean_token_accuracy': '0.7537', 'rewards/chosen': '-0.1317', 'rewards/rejected': '-1.676', 'rewards/accuracies': '0.95', 'rewards/margins': '1.545', 'logps/chosen': '-21.71', 'logps/rejected': '-41.56', 'epoch': '0.8'}
+{'train_runtime': '9.778', 'train_samples_per_second': '5.113', 'train_steps_per_second': '2.557', 'train_loss': '0.3864', 'entropy': '0.6505', 'num_tokens': '1.082e+04', 'logits/chosen': '-0.4268', 'logits/rejected': '-0.4861', 'mean_token_accuracy': '0.7193', 'rewards/chosen': '0.01983', 'rewards/rejected': '-1.455', 'rewards/accuracies': '0.9', 'rewards/margins': '1.474', 'logps/chosen': '-26.73', 'logps/rejected': '-47.5', 'epoch': '1'}
+
+--- Epoch 2/3 ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 50 dynamically gathered samples...
+{'loss': '0.3806', 'grad_norm': '2.536', 'learning_rate': '3.2e-05', 'entropy': '0.7713', 'num_tokens': '4160', 'logits/chosen': '-0.4269', 'logits/rejected': '-0.4006', 'mean_token_accuracy': '0.685', 'rewards/chosen': '0.07629', 'rewards/rejected': '-0.8412', 'rewards/accuracies': '0.85', 'rewards/margins': '0.9175', 'logps/chosen': '-20.05', 'logps/rejected': '-53.83', 'epoch': '0.4'}
+{'loss': '0.2325', 'grad_norm': '1.102', 'learning_rate': '1.2e-05', 'entropy': '0.536', 'num_tokens': '8433', 'logits/chosen': '-0.2884', 'logits/rejected': '-0.3322', 'mean_token_accuracy': '0.7096', 'rewards/chosen': '-0.5285', 'rewards/rejected': '-2.984', 'rewards/accuracies': '0.95', 'rewards/margins': '2.455', 'logps/chosen': '-24.72', 'logps/rejected': '-74.33', 'epoch': '0.8'}
+{'train_runtime': '9.371', 'train_samples_per_second': '5.336', 'train_steps_per_second': '2.668', 'train_loss': '0.3228', 'entropy': '0.5163', 'num_tokens': '1.082e+04', 'logits/chosen': '-0.3651', 'logits/rejected': '-0.4161', 'mean_token_accuracy': '0.7124', 'rewards/chosen': '-0.8657', 'rewards/rejected': '-3.473', 'rewards/accuracies': '0.9', 'rewards/margins': '2.608', 'logps/chosen': '-35.22', 'logps/rejected': '-82.7', 'epoch': '1'}
+
+--- Epoch 3/3 ---
+Generating candidate solutions and interacting with proxy environment...
+Training on 50 dynamically gathered samples...
+{'loss': '0.1759', 'grad_norm': '0.05355', 'learning_rate': '3.2e-05', 'entropy': '0.4036', 'num_tokens': '4160', 'logits/chosen': '-0.03063', 'logits/rejected': '-0.115', 'mean_token_accuracy': '0.763', 'rewards/chosen': '-0.5837', 'rewards/rejected': '-4.046', 'rewards/accuracies': '0.9', 'rewards/margins': '3.463', 'logps/chosen': '-23.66', 'logps/rejected': '-133', 'epoch': '0.4'}
+{'loss': '0.04899', 'grad_norm': '0.02781', 'learning_rate': '1.2e-05', 'entropy': '0.3177', 'num_tokens': '8433', 'logits/chosen': '0.5703', 'logits/rejected': '0.3764', 'mean_token_accuracy': '0.6961', 'rewards/chosen': '-3.302', 'rewards/rejected': '-10.79', 'rewards/accuracies': '1', 'rewards/margins': '7.491', 'logps/chosen': '-59.56', 'logps/rejected': '-197.1', 'epoch': '0.8'}
+{'train_runtime': '9.282', 'train_samples_per_second': '5.387', 'train_steps_per_second': '2.693', 'train_loss': '0.207', 'entropy': '0.3326', 'num_tokens': '1.082e+04', 'logits/chosen': '0.541', 'logits/rejected': '0.2564', 'mean_token_accuracy': '0.6223', 'rewards/chosen': '-4.851', 'rewards/rejected': '-12.57', 'rewards/accuracies': '0.9', 'rewards/margins': '7.717', 'logps/chosen': '-83.8', 'logps/rejected': '-210', 'epoch': '1'}
+Saving online DPO model...
+
+============================================
+End time:      Tue May  5 12:25:08 CEST 2026
+============================================
+============ Job Information ===================================================
+Submitted: 2026-05-05T12:23:37
+Started: 2026-05-05T12:23:57
+Ended: 2026-05-05T12:25:08
+Elapsed: 2 min, Limit: 120 min, Difference: 118 min
+CPUs: 8, Nodes: 1
+Estimated credit Consumption: 5.00 core-hours
+================================================================================

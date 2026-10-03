@@ -46,16 +46,25 @@ def run_iterative_loop():
     # 3. Load Proxy Environment
     env_data = load_proxy_environment(TRAIN_DATA_SOURCE)
     
+    # NEW: Setup logging for generated samples
+    RESULTS_LOG = "DPO/results/online_dpo_history.jsonl"
+    os.makedirs("DPO/results", exist_ok=True)
+    with open(RESULTS_LOG, "w") as f:
+        pass # Clear previous run log
+    
     # 4. ITERATIVE ONLINE LOOP
-    epochs = 3
-    for epoch in range(epochs):
-        print(f"\n--- Epoch {epoch+1}/{epochs} ---")
+    CHUNK_SIZE = 100 # Process the dataset in batches of 100
+    
+    # Step through the entire dataset in chunks
+    for i in range(0, len(env_data), CHUNK_SIZE):
+        chunk = env_data[i : i + CHUNK_SIZE]
+        print(f"\n--- Iteration Batch {i//CHUNK_SIZE + 1} (Samples {i} to {i+len(chunk)}) ---")
         
         dynamic_dpo_data = []
 
         # Step 4a: Generate and get feedback (Proxy interaction)
         print("Generating candidate solutions and interacting with proxy environment...")
-        for item in env_data[:50]:  # Using a subset for demonstration
+        for item in chunk:
             original_cmd = item["interaction"]["original_command"]
             error_output = item["interaction"]["error_output"]
             
@@ -83,6 +92,16 @@ def run_iterative_loop():
                 # So we tell DPO: "What the model generated is rejected. The optimal dataset answer is chosen."
                 chosen = best_cmd
                 rejected = generated_cmd 
+            
+            interaction_record = {
+                "original_error": error_output,
+                "model_generated_cmd": generated_cmd,
+                "environment_feedback_chosen": chosen,
+                "environment_feedback_rejected": rejected
+            }
+            
+            with open(RESULTS_LOG, "a") as f:
+                f.write(json.dumps(interaction_record) + "\n")
             
             dynamic_dpo_data.append({
                 "prompt": [{"role": "user", "content": prompt}],
